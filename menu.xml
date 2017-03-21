@@ -1,0 +1,235 @@
+<menu>
+    <menuitem label='Administrador'>
+        <icon>fa:university fa-fw</icon>
+        <menu>
+              <menuitem label='Programas'>
+                  <icon>fa:file-code-o fa-fw</icon>
+                  <action>SystemProgramList</action>
+              </menuitem>
+              <menuitem label='Grupos'>
+                  <icon>fa:users fa-fw</icon>
+                  <action>SystemGroupList</action>
+              </menuitem>
+              <menuitem label='Usuários'>
+                  <icon>fa:user fa-fw</icon>
+                  <action>SystemUserList</action>
+              </menuitem>
+              <menuitem label='SQL Panel'>
+                  <icon>fa:table fa-fw</icon>
+                  <action>SystemSQLPanel</action>
+              </menuitem>
+              <menuitem label='PHP Info'>
+                  <icon>fa:code fa-fw</icon>
+                  <action>SystemPHPInfoView</action>
+              </menuitem>
+        
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Modulo Auditoria'>
+        <icon>fa:desktop fa-fw</icon>
+        <menu>
+              <menuitem label='Acessos'>
+                  <icon>fa:key fa-fw</icon>
+                  <action>SystemAccessLogList</action>
+              </menuitem>
+              <menuitem label='Mudanças no BD'>
+                  <icon>fa:film fa-fw</icon>
+                  <action>SystemChangeLogView</action>
+              </menuitem>
+              <menuitem label='Comandos SQL'>
+                  <icon>fa:database fa-fw</icon>
+                  <action>SystemSqlLogList</action>
+              </menuitem>
+        </menu>
+    </menuitem>
+        
+ <menuitem label='Módulo Plano VOO'>
+     <icon>fa:desktop fa-fw</icon>
+        <menu>
+            <menuitem label='Relatório Partida'>
+               <icon>fa:users fa-fw green</icon>
+                <action>RelatorioPartida</action>
+            </menuitem>
+            <menuitem label='Relatório PDF'>
+                <icon>fa:users fa-fw green</icon>
+                <action>RelatorioVoo</action>
+            </menuitem>
+            <menuitem label='Pesquisa Partida'>
+                <icon>fa:users fa-fw green</icon>
+                <action>PesquisaPartida</action>
+            </menuitem>
+       
+        </menu>
+    </menuitem>
+
+   <menuitem label='Módulo Comando'>
+     <icon>fa:key fa-fw</icon>
+        <menu>  
+                      <menuitem label='Gráfico  GERAL'>
+                         <icon>fa:key fa-fw green</icon>
+                         <action>GraficoLeave</action>
+                      </menuitem>
+                      <menuitem label='Percentual GERAL'>
+                         <icon>fa:key fa-fw green</icon>
+                         <action>RelatorioQuantitativo</action>
+                      </menuitem>
+            	      <menuitem label='Leave Comandantes'>
+           		 <icon>fa:key fa-fw green</icon>
+             		 <action>RelatorioComando</action>
+            	      </menuitem>
+                      <menuitem label="Leave Viajando">
+			 <icon>fa:key fa-fw green</icon>
+			 <action>RelatorioViajando</action>
+		      </menuitem>
+                 
+          </menu>
+    </menuitem>
+
+    
+    <menuitem label='Módulo SGTE'>
+        <icon>fa:desktop fa-fw red</icon>
+        <menu>
+            <menuitem label='Relatório DIAS EM'>
+                 <icon>fa:film fa-fw red</icon>
+                 <action>RelatorioG</action>
+	    </menuitem>	
+            <menuitem label='Relatório PDF'>
+                <icon>fa:database fa-fw red</icon>
+                <action>Relatorio</action>
+            </menuitem>
+              <menuitem label='Relatório MES'>
+                <icon>fa:database fa-fw red</icon>
+                <action>RelatorioMes</action>
+            </menuitem>
+            <menuitem label='Relatório Leave'>
+                <icon>fa:users fa-fw red</icon>
+                <action>RelatorioLeave</action>
+            </menuitem>  
+               
+            <menuitem label='Cadastro Leave'>
+                <icon>fa:key fa-fw red</icon>
+                <action>CadastroLeave</action>
+            </menuitem>
+            
+                      
+            <menuitem label='Pesquisa Leave'>
+                <icon>fa:key fa-fw red</icon>
+                <action>PesquisaLeave</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+
+  <menuitem label='Módulo Usuário'>
+         <icon>fa:user fa-fw blue</icon>
+        <menu>
+          
+     
+            <menuitem label='Meus Leaves'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>Leaves</action>
+            </menuitem>
+            <menuitem label='Cadastro Leave'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>CadastroLeaveOficiais</action>
+            </menuitem>
+            <menuitem label='Agenda'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>AgendaView</action>
+            </menuitem>
+   
+            <menuitem label='Pesquisa Leave'>
+                <icon>fa:users fa-fw blue</icon>
+                <action>PesquisaLeaveOficiais</action>
+            </menuitem>
+            
+            <menuitem label='Calendario'>
+                <icon>fa:users fa-fw red</icon>
+                <action>Calendario</action>
+            </menuitem>
+       
+        </menu>
+    </menuitem>
+  <menuitem label='Módulo VTR G1'>
+         <icon>fa:database fa-fw green</icon>
+        <menu>
+            <menuitem label='Gráfico '>
+                <icon>fa:database fa-fw </icon>
+                <action>Grafico</action>
+            </menuitem>
+            <menuitem label='Cadastro Saída '>
+                <icon>fa:database fa-fw </icon>
+                <action>CadastroMissaoViatura</action>
+            </menuitem>
+             <menuitem label='Pesquisa Missões '>
+                <icon>fa:database fa-fw </icon>
+                <action>PesquisaMissoesViatura</action>
+            </menuitem>
+            <menuitem label='Relatório Missões '>
+                <icon>fa:database fa-fw </icon>
+                <action>RelatorioMissoes</action>
+            </menuitem>
+ 	   <menuitem label='Relatório Viatura pdf'>
+                <icon>fa:database fa-fw </icon>
+                <action>RelatorioViatura</action>
+            </menuitem>
+       
+        </menu>
+    </menuitem>
+
+  <menuitem label='Modulo Comitiva'>
+         <icon>fa:film fa-fw red</icon>
+        <menu>
+            <menuitem label='Cadastro Comitiva'>
+                <icon>fa:film fa-fw red </icon>
+                <action>CadastroComitiva</action>
+            </menuitem>
+            <menuitem label='Pesquisa Comitiva'>
+                <icon>fa:film fa-fw red</icon>
+                <action>PesquisaComitiva</action>
+            </menuitem>
+       
+        </menu>
+    </menuitem>
+
+
+    <menuitem label='Módulo Militar'>
+         <icon>fa:users fa-fw blue</icon>
+        <menu>
+     
+            <menuitem label='Cadastro Militar'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>RelatorioCadastroMilitar</action>
+            </menuitem>
+         
+            <menuitem label='Pesquisa Militar'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>PesquisaMilitar</action>
+            </menuitem>
+            <menuitem label='Relatório Militar PDF'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>RelatorioMilitar</action>
+            </menuitem>
+            <menuitem label='Relatório Militar SU'>
+                <icon>fa:user fa-fw blue</icon>
+                <action>RelatorioQuantitativoMilitar</action>
+            </menuitem>
+       
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Menu'>
+         <icon>fa:sign-out fa-fw</icon>
+        <menu>
+              <menuitem label='Perfil'>
+                  <icon>fa:users fa-fw red</icon>
+                  <action>SystemProfileView</action>
+              </menuitem>
+              
+              <menuitem label='Sair'>
+                  <action>LoginForm#method=onLogout#static=1</action>
+                  <icon>fa:sign-out fa-fw</icon>
+              </menuitem>
+        </menu>
+    </menuitem>
+</menu>
